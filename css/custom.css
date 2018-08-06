@@ -1,0 +1,38 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    margin: 0;
+}
+.calendar {
+    width: 346px;
+    margin: 50px auto;
+    height: 400px;
+    text-align: center;
+}
+.calendar * {
+    cursor: pointer;
+}
+.dateTimerPickerValue{
+    float: right;
+    margin: 7px 13px;
+    text-indent: 10px;
+    font-size: 12px;
+    width: 80%;
+}
+.overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 9;
+    background: #000000b5;
+    top: 0px;
+    left: 0px;
+}
+input.dateTimerPickerValue[readonly] {
+    background: #cecccc7a;
+    border: 0px;
+    padding: 4px;
+}
+.hideAll {
+    display: none!important;
+}
